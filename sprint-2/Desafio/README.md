@@ -1,6 +1,4 @@
 # Desafio 
-<iframe src="https://compasso-my.sharepoint.com/personal/vitor_borges_pb_compasso_com_br/_layouts/15/embed.aspx?UniqueId=8f29abfd-6d3a-4f60-b669-e0818a6cf7df&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="853" height="480" frameborder="0" scrolling="no" allowfullscreen title="vitor.borges-sprint02.mkv"></iframe>
-
 [Link para o vídeo](https://compasso-my.sharepoint.com/:v:/r/personal/vitor_borges_pb_compasso_com_br/Documents/vitor.borges-sprint02.mkv?csf=1&web=1&e=Zepd9z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ## Etapa 1
