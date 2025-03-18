@@ -28,6 +28,8 @@ dataframe_sorted = dataframe.sort_values(by="Installs",ascending=False)
 top_5_apps = dataframe_sorted.head(6)
 ```
 
+![dataframe sem duplicação](../Evidencias/evidencia-desafio2-01.PNG)
+
 Depois, com os dados filtrados, eu criei o gráfico em barras do top 5 apps mais baixados.
 ```python
 plt.figure(figsize=(10,5))
@@ -41,6 +43,8 @@ plt.tight_layout()
 
 plt.show()
 ```
+
+![Bars chart](../Evidencias/evidencia-desafio2-02.PNG)
 
 <br>
 <hr>
@@ -62,6 +66,7 @@ plt.title(f"Top 10 Categorias Mais Comuns no Google Playstore")
 plt.axis("equal")
 plt.show()
 ```
+![Pie Chart](../Evidencias/evidencia-desafio2-03.PNG)
 
 <br>
 <hr>
@@ -132,12 +137,14 @@ plt.legend(title='Tipo')
 plt.grid(True)
 plt.show()
 ```
+![Proporção Apps](../Evidencias/evidencia-desafio2-04.PNG)
  ```python
 plt.figure(figsize=(8, 8))
 plt.pie(type_counts, labels=type_counts.index, autopct='%1.1f%%', colors=['lightgreen', 'lightcoral'], startangle=90)
 plt.title('Proporção de Aplicativos Gratuitos vs. Pagos')
 plt.show()
 ```
+![Pie Chart Apps](../Evidencias/evidencia-desafio2-05.PNG)
 
 <br>
 <hr>
