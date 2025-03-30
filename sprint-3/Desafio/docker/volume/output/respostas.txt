@@ -1,0 +1,19 @@
+Q1:
+
+               Métrica        Valor
+Artista mais frequente Taylor Swift
+      Maior Bilheteria    780000000
+
+Q2:
+
+     Métrica                Valores
+     Artista                Beyoncé
+Nome do Tour Renaissance World Tour
+ Lucro Médio               10353571
+
+Q3:
+
+      Artist              Tour title  Start Year  Adjusted average per show
+Taylor Swift           The Eras Tour        2023               1.392857e+07
+     Beyoncé  Renaissance World Tour        2023               1.035357e+07
+Taylor Swift Reputation Stadium Tour        2018               7.600846e+06

@@ -8,3 +8,22 @@
 
 ## Desafio
 [Link para o desafio](./Desafio/README.md)
+
+## Exercicios
+### Etapa 1
+[Script Python](./Exercicios/etapa-1/carguru.py) | [Dockerfile](./Exercicios/etapa-1/dockerfile)
+
+![Evidência exercicio 1 python](./Exercicios/evidencias/evidencia-etapa1-python.png)
+
+![Evidência exercicio 1 dockerfile](./Exercicios/evidencias/evidencia-etapa1-dockerfile.png)
+
+<br>
+<hr>
+<br>
+
+### Etapa 2
+[Script Python](./Exercicios/etapa-2/hash.py) | [Dockerfile](./Exercicios/etapa-2/dockerfile)
+
+![Evidência exercicio 2 python](./Exercicios/evidencias/evidencia-etapa2-python.png)
+
+![Evidência exercicio 2 dockerfile](./Exercicios/evidencias/evidencia-etapa2-dockerfile.png)

@@ -1,0 +1,17 @@
+services:
+  etapa3:
+    build: ./etapa-3
+    volumes: 
+      - ./volume/input:/app/output
+    environment:
+      - OUTPUT_DIR=/app/output
+  etapa4:
+    build: ./etapa-4
+    volumes:
+      - ./volume/input:/app/input
+      - ./volume/output:/app/output
+    depends_on:
+      - etapa3
+    environment:
+      - INPUT_DIR=/app/input
+      - OUTPUT_DIR=/app/output
