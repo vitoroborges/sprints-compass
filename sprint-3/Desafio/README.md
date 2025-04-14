@@ -1,5 +1,5 @@
 # Desafio
-[Link para o vídeo]()
+[Link para o vídeo](https://compasso-my.sharepoint.com/:v:/r/personal/vitor_borges_pb_compasso_com_br/Documents/vitor.borges-sprint03.mkv?csf=1&web=1&e=f2URTV)
 
 ## Etapa 1
 Iniciei importando a biblioteca *pandas* para tratar os dados da tabela csv que foi disponibilizada.
