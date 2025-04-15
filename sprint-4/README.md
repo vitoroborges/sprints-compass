@@ -14,20 +14,67 @@ A proposta do curso é ensinar os fundamentos da AWS de forma prática. Enquanto
 [Link para o desafio](./Desafio/README.md)
 
 ## Exercicios
-### Etapa 1
-[Script Python](./Exercicios/etapa-1/carguru.py) | [Dockerfile](./Exercicios/etapa-1/dockerfile)
+### Athena
+Neste exercício, eu usei a ferramenta Athena para fazer queries em um dataset fornecido.
 
-![Evidência exercicio 1 python](./Exercicios/evidencias/evidencia-etapa1-python.png)
+Nessa primeira parte eu criei a tabela onde seria armazenado os dados importados de um csv.
 
-![Evidência exercicio 1 dockerfile](./Exercicios/evidencias/evidencia-etapa1-dockerfile.png)
+![Athena 1](./Exercicios/Athena/evidencia-athena.PNG)
+
+Criei a query para criar uma lista dos 3 nomes mais usados em cada década desde o 1950 até hoje.
+
+![Athena 2](./Exercicios/Athena/evidencia-athena-2.PNG)
+
+E depois mostrei o resultado.
+
+![Athena 3](./Exercicios/Athena/evidencia-athena-3.PNG)
 
 <br>
 <hr>
 <br>
 
-### Etapa 2
-[Script Python](./Exercicios/etapa-2/hash.py) | [Dockerfile](./Exercicios/etapa-2/dockerfile)
+### Lambda
 
-![Evidência exercicio 2 python](./Exercicios/evidencias/evidencia-etapa2-python.png)
+Criei o script python que seria executado na função lambda.
 
-![Evidência exercicio 2 dockerfile](./Exercicios/evidencias/evidencia-etapa2-dockerfile.png)
+![Lambda 1](./Exercicios/Lambda/evidencia-lambda.PNG)
+
+Criei a layer do lambda.
+
+![Lambda 2](./Exercicios/Lambda/evidencia-lambda-layer.PNG)
+
+Subi o container para usar no layer.
+
+![Lambda 3](./Exercicios/Lambda/evidencia-lamda-docker.PNG)
+
+Instalei os modulos no container.
+
+![Lambda 4](./Exercicios/Lambda/evidencia-lambda-docker-2.PNG)
+
+Zipei e fiz uma cópia dos arquivos dentro do docker.
+
+![Lambda 5](./Exercicios/Lambda/evidencia-lambda-docker-3.PNG)
+
+Por fim, fiz o upload dos arquivos no layer e executei o script python.
+
+![Lambda 6](./Exercicios/Lambda/evidencia-lambda-sucesso.PNG)
+
+<br>
+<hr>
+<br>
+
+### S3 Bucket
+
+Criei o bucket no s3 e fiz upload dos arquivos fornecidos.
+
+![bucket 1](./Exercicios/S3/evidencia-s3-bucket.PNG)
+
+Habilitei o acesso publico, site estático e forneci as credenciais para a policy que me permitiria acessar o bucket via api.
+
+Depois criei a pasta dados e fiz upload do csv.
+
+![bucket 2](./Exercicios/S3/evidencia-s3-bucket-2.PNG)
+
+Por fim, testei o site e consegui fazer download atráves da api.
+
+![bucket 3](./Exercicios/S3/evidencia-s3-bucket-3.PNG)
