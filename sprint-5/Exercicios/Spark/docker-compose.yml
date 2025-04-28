@@ -1,0 +1,11 @@
+services:
+  spark-notebook:
+    image: jupyter/all-spark-notebook:latest
+    container_name: spark-notebook
+    ports:
+      - "8888:8888"  
+      - "4040:4040"   
+    restart: unless-stopped
+    environment:
+      - JUPYTER_TOKEN=
+      - JUPYTER_ENABLE_LAB=yes
