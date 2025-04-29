@@ -16,3 +16,15 @@ A ideia principal é que a nuvem não é só mais prática, mas também pode ser
 ### Spark
 Para realiza esse exercício eu usei um container docker contendo uma imagem com spark e jupyter notebook instalados.
 ![spark-docker](./Exercicios/Evidencias/spark-docker.png)
+
+Após subir o container e acessar o meu [notebook](./Exercicios/Spark/spark.ipynb), eu criei um script para contar as palavras do meu **README.md** principal.
+
+![spark-shell](./Exercicios/Evidencias/spark_shell.PNG)
+
+### TMD
+Nesse exercício eu utilizei uma requisição RESTful para coletar dados da api TMDB e organizar em um dataframe.
+
+[Link para o notebook](./Exercicios/TMDB/tmdb.ipynb)
+
+![tmdb dados](./Exercicios/Evidencias/exer-tmdb.PNG)
+
