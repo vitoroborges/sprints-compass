@@ -29,23 +29,18 @@ spark = glueContext.spark_session
 job = Job(glueContext)
 job.init(args['JOB_NAME'], args)
 
-tmdb_df = glueContext.create_dynamic_frame.from_options(
-    connection_type="s3",
-    connection_options={"paths": [tmdb_source], "multiline": True},
-    format="json"
-).toDF()
-        
+tmdb_df = spark.read.json(f"{tmdb_source}*.json")
+
 tmdb_df = tmdb_df.withColumn("data_ingestao", current_date()) \
        .withColumn("ano", year("data_ingestao")) \
        .withColumn("mes", month("data_ingestao")) \
        .withColumn("dia", dayofmonth("data_ingestao"))
        
-df_dynamic = DynamicFrame.fromDF(tmdb_df, glueContext, "df_dyf")
-
-df_dynamic.printSchema()
+df_dyf = DynamicFrame.fromDF(tmdb_df, glueContext, "df_dyf")
+df_dyf.printSchema()
 
 glueContext.write_dynamic_frame.from_options(
-    frame=df_dynamic,
+    frame=df_dyf,
     connection_type="s3",
     connection_options={
         "path": tmdb_target_path,
