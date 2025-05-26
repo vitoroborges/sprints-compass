@@ -30,3 +30,4 @@ No final de 2024 um professor meu compartilhou o link para o processo seletivo d
 4. [sprint 4](./sprint-4/README.md)
 5. [sprint 5](./sprint-5/README.md)
 6. [sprint 6](./sprint-6/README.md)
+7. [sprint 7](./sprint-7/README.md)
