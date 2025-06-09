@@ -70,3 +70,39 @@ No terceiro gráfico, escolhi o modelo de dispersão para calcular a correlaçã
 No eixo x usei a **soma  da popularidade** e no eixo y, usei a **soma da receita**. Após isso, usei também o campo **duration_min** para dar contexto aos dadatpoints.
 
 ![Dispersão](../Evidencias/scatter-plot.PNG)
+
+<br>
+<hr>
+<br>
+
+No quarto gráfico, usei o modelo de barra vertical empilhada, onde consigo, por trimestre, mostrar o desempenho de lançamento.
+
+No eixo x eu usei o campo **ano**, enquanto no eixo y usei a **soma da receita**. No agrupamento, foi categorizado pelo trimestre.
+
+![Stacked Chart](../Evidencias/vertical-stacked.PNG)
+
+<br>
+<hr>
+<br>
+
+No quinto gráfico, optei por utilizar o tipo pizza para mostrar a distribuição de filmes por gênero.
+
+Agrupei pelo nome do gênero e usei como valor a **contagem do movie_id**.
+
+![Pizza Chart](../Evidencias/pie-chart.PNG)
+
+<br>
+<hr>
+<br>
+
+No sexto gráfico, usei um gráfico de barras e linhas para traçar a receita média vs. popularidade média por gênero.
+
+No eixo x usei o campo **genre_name**, nas barras usei a **média a receita** e para a linha utilizei a **média da popularidade**.
+
+![Vertical e Linha](../Evidencias/clustered-chart.PNG)
+
+<br>
+<hr>
+<br>
+
+No fim, meu dashboard ficou assim: [Minios Dashboard](../Desafio/Quick%20Sight/illumination-dashboard.pdf)
