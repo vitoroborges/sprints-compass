@@ -37,6 +37,10 @@ Essa tabela posteriormente será consumida pelo *quick sight*, aonde irá interp
 
 ## Etapa 3
 
+No topo do dashboard, temos o título e a temática.
+
+![Topo Dashboard](../Evidencias/topo-dashboard.PNG)
+
 Para nosso primeiro gráfico, escolhi o clássico gráfico em barras horizontais.
 
 Analisaremos a evolução da receita ao longo do tempo por filme.
@@ -44,3 +48,25 @@ Analisaremos a evolução da receita ao longo do tempo por filme.
 No eixo y passamos o campo **ano** ordenado de forma decrescente, e no eixo x usamos o campo **receita**. Para dar contexto as barras, utlizamos o campo **nome**.
 
 ![Horizontal Bar](../Evidencias/horizontal-bar.PNG)
+
+<br>
+<hr>
+<br>
+
+No segundo gráfico, utilizei o esquema de linhas, para evidenciar a tendência de popularidade dos filmes da Illumination por ano.
+
+No eixo x eu usei o campo **ano** e no eixo y a **média da popularidade**.
+
+As linhas marcam o nível de popularidade.
+
+![Line Chart](../Evidencias/line-chart.PNG)
+
+<br>
+<hr>
+<br>
+
+No terceiro gráfico, escolhi o modelo de dispersão para calcular a correlação entre popularidade e receita.
+
+No eixo x usei a **soma  da popularidade** e no eixo y, usei a **soma da receita**. Após isso, usei também o campo **duration_min** para dar contexto aos dadatpoints.
+
+![Dispersão](../Evidencias/scatter-plot.PNG)
