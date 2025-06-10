@@ -1,6 +1,6 @@
 # Desafio
 
-[Link para o vídeo]()
+[Link para o vídeo](https://compasso-my.sharepoint.com/:v:/g/personal/vitor_borges_pb_compasso_com_br/EZFG9Fc3hwZJqZun1YllKk4BUWRWI7fENgDSFHvoTUfTgw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Gvzxrt)
 
 ## Agradecimentos
 Antes de mais nada, quero agradecer a todos do squad 1 que me auxiliaram nas minhas dúvidas e que, sempre de prontidão, me respodiam nos chats. A meus amigos: Ayalon e Filipe, que quase todos os dias estão comigo, compartilhando seus conhecimentos e frustações sobre o estágio, rindo e chorando juntos. 
